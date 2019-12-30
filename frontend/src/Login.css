@@ -1,9 +1,12 @@
-.loginContainer {
+.loginRoot {
   height: 100%;
   width: 100%;
   background: url('imgs/loginBg.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
+}
+
+.loginPanel {
+  width: 40% !important;
 }

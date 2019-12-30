@@ -3,7 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import Login from './Login';
 import * as serviceWorker from './serviceWorker';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'semantic-ui-css/semantic.min.css'
+
 
 ReactDOM.render(<Login />, document.getElementById('root'));
 
