@@ -23,8 +23,8 @@ class Login extends React.Component {
   handleSubmit = async (e) => {
     e.preventDefault();
     if(this.state.mode <= 0) return;
-    const r = await axios.post('localhost:5000/' + (this.state.mode == 1 ? 'login' : 'register'), {
-      name: this.state.username,
+    const r = await axios.post('/api/' + (this.state.mode == 1 ? 'login' : 'register'), {
+      username: this.state.username,
       passwd: this.state.passwd
     });
     console.log(r.data);
