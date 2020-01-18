@@ -41,6 +41,7 @@ module.exports = {
                 target: 'http://localhost:5000',
                 pathRewrite: {'^/api' : ''}
             }
-        }
+        },
+        historyApiFallback: true
     }
 };
